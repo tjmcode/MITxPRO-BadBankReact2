@@ -248,6 +248,7 @@ function Account()
         <Card
             bgcolor="primary"
             header="Account"
+            width="30rem"
             status={status}
             body={needInput ? (
                 <form>
@@ -287,7 +288,7 @@ function Account()
                             validate(e.currentTarget.value, 'balance');
                         }} /><br />
 
-                    <button type="clear" className="btn btn-light" onClick={clearForm_Click}>Clear</button>
+                    <button type="button" className="btn btn-light" onClick={clearForm_Click}>Clear</button>
                     <> </>
                     <button type="submit" className="btn btn-light" onClick={createAccount_Click} disabled={submitDisabled}>Create</button>
                     <br />

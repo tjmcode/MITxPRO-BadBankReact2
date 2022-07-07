@@ -143,7 +143,7 @@ function App()
 
                 <NavBar />
 
-                <div className="container" style={{padding: "40px"}}>
+                <div className="container" style={{padding: "20px"}}>
                     <Routes>
                         <Route path="/" exact element={<Home />}></Route>
                         <Route path="/account/" element={<Account />}></Route>

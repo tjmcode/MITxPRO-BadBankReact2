@@ -249,7 +249,7 @@ function Withdraw()
                             validate(e.currentTarget.value, 'withdraw');
                         }} /><br />
 
-                    <button type="clear" className="btn btn-light" onClick={clearForm_Click}>Clear</button>
+                    <button type="button" className="btn btn-light" onClick={clearForm_Click}>Clear</button>
                     <> </>
                     <button type="submit" className="btn btn-light" onClick={makeWithdraw_Click} disabled={submitDisabled}>Withdraw</button>
                     <br />

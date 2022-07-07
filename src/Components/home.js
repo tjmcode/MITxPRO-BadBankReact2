@@ -121,7 +121,7 @@ function Home()
         <Card
             txtcolor="black"
             header="McGuire's Bad Bank"
-            width="36rem"
+            width="30rem"
             title="Welcome to Bad Bank"
             text='You should not trust us with your money!'
             body={(<img src="logo800.png" width="800" className="img-fluid" alt="Bad Bank Logo" />)}

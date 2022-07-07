@@ -171,7 +171,7 @@ function Login()
 
         setSubmitDisabled('Disabled');
         setNeedInput(true);
-    };
+    }
 
     // #endregion
 
@@ -210,7 +210,6 @@ function Login()
                     ctx.LoggedIn = true;
                     ctx.CurrentUser = email;
                     ctx.UserIndex = i;
-                    ctx.NavBarUp = false;
 
                     break;
                 }
@@ -235,7 +234,6 @@ function Login()
         ctx.LoggedIn = false;
         ctx.CurrentUser = 'You must log in...';
         ctx.UserIndex = 0;
-        ctx.NavBarUp = false;
 
         setNeedInput(true);
     }
@@ -278,7 +276,7 @@ function Login()
                             validate(e.currentTarget.value, 'password');
                         }} /><br />
 
-                    <button type="clear" className="btn btn-light" onClick={clearForm_Click}>Clear</button>
+                    <button type="button" className="btn btn-light" onClick={clearForm_Click}>Clear</button>
                     <> </>
                     <button type="submit" className="btn btn-light" onClick={logIn_Click} disabled={submitDisabled}>Log In</button>
                     <br />
