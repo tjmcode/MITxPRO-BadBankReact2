@@ -6,7 +6,7 @@ A pure REACT App to simulate a Bad Bank with no security features.
 ## Description
 
 This will be used for my MIT xPRO Portfolio.
-This Bad Bank project is a refactored version of the Bad Bank 'Fire Hydrant' project I did<br />
+This Bad Bank project is a refactored version of the Bad Bank 'Fire Hydrant' project I did
 in the previous MIT 'Digital Transformation' course in December 2021.
 It was bascially rewritten from scratch in React Components, Context, and State.
 
